@@ -1,4 +1,84 @@
-<html>
-<p> etapa dos </p>
-  
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver PDF</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #3498db, #8e44ad); /* Fondo degradado */
+            font-family: Arial, sans-serif; /* Fuente por defecto */
+            color: #ffffff; /* Color del texto */
+        }
+        h1 {
+            margin-bottom: 20px; /* Espacio entre el título y el contenedor */
+            text-align: center; /* Centra el texto */
+            font-size: 2.5em; /* Tamaño del título */
+        }
+        .pdf-container {
+            width: 80%; 
+            height: 80%;
+            border-radius: 10px; /* Esquinas redondeadas */
+            overflow: hidden; /* Oculta el desbordamiento */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra del contenedor */
+            background-color: #ffffff; /* Color de fondo del contenedor */
+        }
+        iframe {
+            width: 100%; 
+            height: 100%; 
+            border: none; /* Sin borde */
+        }
+        footer {
+            margin-top: 20px; /* Espacio arriba del pie de página */
+            font-size: 0.9em; /* Tamaño de texto */
+            color: #ffffff; /* Color del pie de página */
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Altura completa de la ventana */
+            margin: 0;
+            background-color: #f0f0f0; /* Color de fondo */
+        }
+        .pdf-container {
+            width: 80%; /* Ancho del contenedor del PDF */
+            height: 80%; /* Alto del contenedor del PDF */
+            border: 1px solid #ccc; /* Borde alrededor del contenedor */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+            background-color: white; /* Color de fondo del contenedor */
+        }
+        iframe {
+            width: 100%; /* Ancho completo del iframe */
+            height: 100%; /* Alto completo del iframe */
+            border: none; /* Sin borde */
+        }
+    </style>
+</head>
+<body>
+    <div class="pdf-container">
+        <iframe src="1EVIDENCIA Base de Datos con Paginas Web Dinámicas.pdf" allowfullscreen></iframe>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<center>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentacion</title>
+</head>
+<body>
+    <h1>Bienvenido a mi página</h1>
+    <p>Puedes visitar la etapa 1 haciendo clic en el siguiente enlace:</p>
+    <a href="1EVIDENCIA Base de Datos con Paginas Web Dinámicas.pdf" target="_blank">Ir a Etapa 1</a>
+</body></center>
 </html>
